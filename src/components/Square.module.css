@@ -1,0 +1,19 @@
+.square {
+  background: #fff;
+  color: #003;
+  border: none;
+  outline: none;
+  font: 700 2.3rem cursive, sans-serif;
+  cursor: pointer;
+}
+
+.square.x {
+  color: #ec9d09;
+}
+.square.o {
+  color: #66c5eb;
+}
+
+.square.disable {
+  cursor: no-drop;
+}
